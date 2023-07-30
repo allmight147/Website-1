@@ -1,0 +1,145 @@
+body{ margin: 0px;
+    font-family: 'Roboto',sans-serif;
+    
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.awesome{
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+ul{
+    list-style-type:  none;
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.text1{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 600px;
+    align-items: center;
+    flex: 1;
+    padding: 10px 260px;
+    margin-bottom: 120px;
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 16px;
+    padding: 8px 24px;
+    
+    min-width: 100px
+    
+}
+img{
+   width: 700px;
+   height: 250px;
+   flex-shrink: 0;
+}
+.con1{
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    
+}
+.text{
+    max-width: 400px;
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+    flex: 1;
+    gap: 100px;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 150px;
+}
+.con2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.info{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 42px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.box{
+    border: 2px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.cubes{  
+    width: 150px;
+    height: 300px;
+    text-align: center;    
+}
+.quote-con{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#e5e7eb ;
+    padding: 100px 545px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.author{
+    font-weight: bolder;
+    align-self: flex-end;
+}
+.blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    background-color:#3882f6 ;
+    margin: 200px 350px;
+    padding: 40px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    min-width: 500px;
+}
+.text2{
+    font-size: 24px;
+    font-weight: bolder;
+    flex-shrink: 0;
+}
+.button3{
+    border-radius: 10px;
+    border-color: white;
+}
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: #f9faf8;
+    padding: 50px;
+}
